@@ -2,10 +2,7 @@ version: '3.4'
 
 services:
   jurassicparkapp:
-    image: jurassicparkapp
-    build:
-      context: .
-      dockerfile: ./Dockerfile
+    image: cypher4859/jurassic-park:latest
     environment:
       NODE_ENV: production
     ports:
